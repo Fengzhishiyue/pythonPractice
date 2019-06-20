@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>html登录模板</title>
+    <style>
+        body {
+            /* background: url(bg.jpg); */
+            font-family: "微软雅黑", sans-serif;
+        }
+        
+        .login input {
+            padding: 10px;
+            color: white;
+            background-color: #555555;
+            border: 1px solid black;
+            border-radius: 4px;
+            letter-spacing: 2px;
+            width: 150px;
+            margin-bottom: 10px;
+        }
+        
+        .login {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            margin: -150px 0 0 -150px;
+            width: 300px;
+            height: 300px;
+        }
+        
+        .login div {
+            width: 300px;
+        }
+        
+        .login span {
+            padding: 10px;
+            width: 150px;
+            /* margin: auto */
+        }
+        
+        .login h1 {
+            color: #555555;
+            text-shadow: 0px 10px 8px #CDC673;
+            letter-spacing: 2px;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        
+        button {
+            width: 100%;
+            padding: 10px;
+            background-color: #CDC673;
+            border: 1px solid black;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="headtop"></div>
+    <div class="login">
+        <h1>注册</h1>
+        <form action="" method="post">
+            <div>
+                <span>用户名：</span>
+                <input type="text" name="user" placeholder="用户名" required="required">
+            </div>
+            <div>
+                <span>密码:</span>
+                <input type="password" name="password" placeholder="密  码" required="required">
+            </div>
+            <div>
+                <button type="submit">注册</button>
+            </div>
+        </form>
+    </div>
+    <script>
+    </script>
+</body>
+
+</html>
